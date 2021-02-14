@@ -1,34 +1,75 @@
-# dev-cinemapp
+<h1 align="center"> Dev CineApp - MoviesList </h1>
+<h4 align="center">
+  Projeto para salvar seus filmes favoritos.
+</h4>
 
-### Olá amigx,
+<div align="center">
 
-### Seja bem vindx ao nosso desafio!
+![TypeScript](https://img.shields.io/badge/-TypeScript-007ACC?style=flat&logoColor=fff&logo=typescript)&nbsp;
 
-Nosso passatempo favorito nessa quarentena tem sido assistir filmes e seriados, por isso pensamos em desenvolver uma solução que nos ajude na hora de selecionar o que mais gostamos. Caso você aceite o nosso desafio, precisamos que você implemente um sistema (fique a vontade pra escolher entre web ou mobile) onde será possível buscar por filmes e series utilizando a API (http://www.omdbapi.com/). Com todos esses filmes a nossa disposição queremos basicamente separar nossos favoritos, para que possamos encontrá-los facilmente depois. Portanto a sua solução deve:
+![React-Native](https://img.shields.io/badge/-React_Native-0488B0?style=flat&logoColor=fff&logo=react)&nbsp;
+</div>
 
-- Permitir a busca por filmes que gostamos
-- Listar os filmes encontrados
-- Permitir que escolhamos nosso filmes favoritos
-- Permitir que removamos um filme de nossos favoritos (às vezes um filme enjoa)
-- Listar nossos filmes favoritos
-
-Para auxiliar você nesse processo fizemos um protótipo rápido utilizando o Figma. Se quiser conferir é só seguir o link:
-
-[https://www.figma.com/proto/UE8zfSxxf8K0TzpgslbYhz/CinemAPP?node-id=1%3A28&scaling=contain](https://www.figma.com/proto/UE8zfSxxf8K0TzpgslbYhz/CinemAPP?node-id=1%3A28&scaling=contain)
+<p align="center">
+  <a href="#:memo:-Donwload-do-Projeto">Donwload do Projeto</a>
+  <!-- &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#:iphone:-Donwload-no-Celular">Download no Celular</a> -->
+</p>
 
 
-Para facilitar um pouco mais as coisas, já deixamos separada uma chave de acesso para a API (ou você pode criar a sua também):
 
+
+<div>
+
+![photo 1](./images/photo1.jpg)
+![photo 2](./images/photo2.jpg)
+</div>
+
+
+
+
+
+## :memo: Donwload do Projeto
+  Para o download do projeto você precisa estar com as configurações requisitadas do <a href="https://reactnative.dev/docs/environment-setup">React-Native</a> já instaladas.
+
+  Feito isso, Faça:
+
+1. O clone o projeto.
+
+
+```bash
+git clone
 ```
-Chave de API: 925eba28
-Exemplo requisição: GET http://www.omdbapi.com/?apikey=925eba28&s=batman
+2. Entre na pasta do projeto.
+
+```bash
+  cd dev-cinemapp && cd MoviesList
+```
+3. Instale as dependências.
+
+* **npm**
+```bash
+npm install
+```
+* **yarn**
+```bash
+yarn
+```
+4. Para iniciar a aplicação:
+* **npm**
+```bash
+npx react-native run-android
+```
+* **yarn**
+```bash
+yarn android
 ```
 
-Você pode desenvolver uma solução web ou mobile (react-native), se escolher a primeira opção é importante que consigamos utilizá-la também em nossos celulares.
+**Obs: O projeto foi apenas configurado para android.
 
-## Entrega da sua solução
+<!-- ## :iphone: Donwload no Celular
 
-Deixe bem claro suas premissas, suposições e como executamos seu código. Para entregar essa solução, de um “fork” neste repositório e nos mande o link do novo repositório quando finalizar a tarefa.
+QRCODE -->
 
-
-No mais aguardamos seu retorno. Boa sorte :)
+---
+Projeto criado por <a href="https://www.linkedin.com/in/adriel-borgesti" >Adriel Borges</a>.
