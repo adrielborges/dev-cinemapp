@@ -7,6 +7,7 @@
 
 ![TypeScript](https://img.shields.io/badge/-TypeScript-007ACC?style=flat&logoColor=fff&logo=typescript)&nbsp;
 
+
 ![React-Native](https://img.shields.io/badge/-React_Native-0488B0?style=flat&logoColor=fff&logo=react)&nbsp;
 </div>
 
@@ -21,8 +22,8 @@
 
 <div>
 
-![photo 1](./images/photo1.jpg)
-![photo 2](./images/photo2.jpg)
+![Screenshot1](https://user-images.githubusercontent.com/47395305/107866755-b3550800-6e52-11eb-93f0-7be3360b7d87.jpg)
+![Screenshot1](https://user-images.githubusercontent.com/47395305/107866757-b4863500-6e52-11eb-9023-7016eb9ed02c.jpg)
 </div>
 
 
@@ -43,7 +44,7 @@ git clone
 2. Entre na pasta do projeto.
 
 ```bash
-  cd dev-cinemapp && cd MoviesList
+  cd MoviesList
 ```
 3. Instale as dependências.
 
