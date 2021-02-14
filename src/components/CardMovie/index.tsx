@@ -25,17 +25,19 @@ const CardMovie = ({movie}: ICardMovies) => {
       />
       <S.MovieInfoContainer>
         <S.MovieInfoTitle numberOfLines={2}>{movie.Title}</S.MovieInfoTitle>
-        <S.Year>
-          <S.Dot />
-          <S.YearText>{movie.Year}</S.YearText>
-        </S.Year>
-        <S.MovieFavoriteButton
-          favorited={favoriteMoviesList.some(
-            (favoritedMovie) => favoritedMovie.imdbID === movie.imdbID,
-          )}
-          onPress={() => favoriteMovie(movie)}>
-          <S.MovieFavoriteButtonIcon name="heart" size={15} color="#fff" />
-        </S.MovieFavoriteButton>
+        <S.Footer>
+          <S.Year>
+            <S.Dot />
+            <S.YearText>{movie.Year}</S.YearText>
+          </S.Year>
+          <S.MovieFavoriteButton
+            favorited={favoriteMoviesList.some(
+              (favoritedMovie) => favoritedMovie.imdbID === movie.imdbID,
+            )}
+            onPress={() => favoriteMovie(movie)}>
+            <S.MovieFavoriteButtonIcon name="heart" />
+          </S.MovieFavoriteButton>
+        </S.Footer>
       </S.MovieInfoContainer>
     </S.MovieCard>
   );

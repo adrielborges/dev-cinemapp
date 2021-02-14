@@ -1,43 +1,48 @@
 import styled from 'styled-components/native';
-import Icon from 'react-native-vector-icons/FontAwesome';
+import Icon from 'react-native-vector-icons/Feather';
 
 interface IMovieFavoriteButton {
   favorited: boolean;
 }
 
 export const MovieCard = styled.View`
-  position: relative;
   background: #171721;
   width: 100%;
-  padding: 5px;
-  border-radius: 15px;
+  padding: 4px;
+  border-radius: 16px;
   flex-direction: row;
-  margin-bottom: 10px;
 `;
 export const MovieImage = styled.Image`
   width: 78px;
   height: 116px;
-  border-radius: 10px;
+  border-radius: 12px;
 `;
 
 export const MovieInfoContainer = styled.View`
   flex: 1;
-  padding-left: 15px;
+  margin-left: 15px;
   justify-content: space-between;
 `;
+
 export const MovieInfoTitle = styled.Text`
   margin-top: 16px;
   font-size: 16px;
-  width: 70%;
   color: #fafafa;
+  font-family: 'Poppins-SemiBold';
+`;
+
+export const Footer = styled.View`
+  padding-top: 4px;
+  border-top-width: 1px;
+  border-color: rgba(196, 196, 196, 0.1);
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
 `;
 
 export const Year = styled.View`
   flex-direction: row;
   align-items: center;
-  padding-top: 8px;
-  border-top-width: 1px;
-  border-color: rgba(196, 196, 196, 0.1);
 `;
 
 export const Dot = styled.View`
@@ -51,21 +56,19 @@ export const Dot = styled.View`
 export const YearText = styled.Text`
   font-size: 16px;
   color: #fafafa;
+  font-family: 'Poppins-Regular';
 `;
 
 export const MovieFavoriteButton = styled.TouchableOpacity<IMovieFavoriteButton>`
-  position: absolute;
-  bottom: 0px;
-  right: 0px;
-  background: ${(props) => (props.favorited ? '#da1a37' : '#2b2b37')};
+  background: ${(props) => (props.favorited ? '#da1a37' : '#2d2d3e')};
   height: 32px;
   width: 32px;
   border-radius: 16px;
   justify-content: center;
+  align-items: center;
 `;
 
 export const MovieFavoriteButtonIcon = styled(Icon)`
-  font-size: 15px;
-  text-align: center;
-  color: #f0f0f0;
+  font-size: 16px;
+  color: #fafafa;
 `;

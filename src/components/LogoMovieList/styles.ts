@@ -5,7 +5,6 @@ export const Container = styled.View`
   justify-content: flex-start;
   flex-direction: row;
   margin-top: 40px;
-  padding-left: 20px;
 `;
 export const Title = styled.Text`
   font-size: 36px;

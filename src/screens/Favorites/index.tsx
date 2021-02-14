@@ -17,18 +17,23 @@ interface ISearchMovies {
 const Favorites: React.FC = () => {
   const {favoriteMoviesList} = useFavorites();
 
+  const renderMovies = ({item}: {item: ISearchMovies}) => (
+    <CardMovie movie={item} />
+  );
+
   return (
     <S.Container>
       <LogoMovieList />
       <S.Header>
-        <S.HeaderTitleText> Meus Filmes Favoritos</S.HeaderTitleText>
+        <S.HeaderTitleText>Meus Favoritos</S.HeaderTitleText>
       </S.Header>
 
-      <S.ListMovies>
-        {favoriteMoviesList.map((movie) => (
-          <CardMovie key={movie.imdbID} movie={movie} />
-        ))}
-      </S.ListMovies>
+      <S.ListMovies
+        data={favoriteMoviesList}
+        keyExtractor={(movie) => movie.imdbID}
+        renderItem={renderMovies}
+        ItemSeparatorComponent={() => <S.Divider />}
+      />
     </S.Container>
   );
 };
