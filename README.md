@@ -17,18 +17,11 @@
   <a href="#:iphone:-Donwload-no-Celular">Download no Celular</a> -->
 </p>
 
-
-
-
 <div>
 
 ![Screenshot1](https://user-images.githubusercontent.com/47395305/107866755-b3550800-6e52-11eb-93f0-7be3360b7d87.jpg)
 ![Screenshot1](https://user-images.githubusercontent.com/47395305/107866757-b4863500-6e52-11eb-9023-7016eb9ed02c.jpg)
 </div>
-
-
-
-
 
 ## :memo: Donwload do Projeto
   Para o download do projeto você precisa estar com as configurações requisitadas do <a href="https://reactnative.dev/docs/environment-setup">React-Native</a> já instaladas.
@@ -36,7 +29,6 @@
   Feito isso, Faça:
 
 1. O clone o projeto.
-
 
 ```bash
 git clone
