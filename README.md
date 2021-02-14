@@ -9,19 +9,30 @@
 
 
 ![React-Native](https://img.shields.io/badge/-React_Native-0488B0?style=flat&logoColor=fff&logo=react)&nbsp;
-</div>
 
+</div>
 <p align="center">
-  <a href="#:memo:-Donwload-do-Projeto">Donwload do Projeto</a>
-  <!-- &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#:iphone:-Donwload-no-Celular">Download no Celular</a> -->
+  <a href="#memo-donwload-do-projeto">Donwload do Projeto</a>
+  &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#iphone-donwload-no-celular">Download no Celular</a>
 </p>
 
-<div>
+<div align="center" >
 
-![Screenshot1](https://user-images.githubusercontent.com/47395305/107866755-b3550800-6e52-11eb-93f0-7be3360b7d87.jpg)
-![Screenshot1](https://user-images.githubusercontent.com/47395305/107866757-b4863500-6e52-11eb-9023-7016eb9ed02c.jpg)
+<img heigth="50% auto;" align="left" src="https://user-images.githubusercontent.com/47395305/107866755-b3550800-6e52-11eb-93f0-7be3360b7d87.jpg"/>
+
+<br/>
+
+
+<img heigth="50% auto;" align="right" src="https://user-images.githubusercontent.com/47395305/107866757-b4863500-6e52-11eb-9023-7016eb9ed02c.jpg"/>
+
+<br/>
 </div>
+
+
+
+<br/>
+<br/>
 
 ## :memo: Donwload do Projeto
   Para o download do projeto você precisa estar com as configurações requisitadas do <a href="https://reactnative.dev/docs/environment-setup">React-Native</a> já instaladas.
@@ -63,6 +74,8 @@ yarn android
 <!-- ## :iphone: Donwload no Celular
 
 QRCODE -->
+
+<a href="https://youtu.be/v4T8k3D3vv0"> Vejo o funcionamento.</a>
 
 ---
 Projeto criado por <a href="https://www.linkedin.com/in/adriel-borgesti" >Adriel Borges</a>.
