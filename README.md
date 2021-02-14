@@ -6,11 +6,10 @@
 <div align="center">
 
 ![TypeScript](https://img.shields.io/badge/-TypeScript-007ACC?style=flat&logoColor=fff&logo=typescript)&nbsp;
-
-
 ![React-Native](https://img.shields.io/badge/-React_Native-0488B0?style=flat&logoColor=fff&logo=react)&nbsp;
 
 </div>
+
 <p align="center">
   <a href="#memo-donwload-do-projeto">Donwload do Projeto</a>
   &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
@@ -19,12 +18,12 @@
 
 <div align="center" >
 
-<img heigth="50% auto;" align="left" src="https://user-images.githubusercontent.com/47395305/107866755-b3550800-6e52-11eb-93f0-7be3360b7d87.jpg"/>
+<img heigth="50% auto;"  src="https://user-images.githubusercontent.com/47395305/107866755-b3550800-6e52-11eb-93f0-7be3360b7d87.jpg"/>
 
 <br/>
 
 
-<img heigth="50% auto;" align="right" src="https://user-images.githubusercontent.com/47395305/107866757-b4863500-6e52-11eb-9023-7016eb9ed02c.jpg"/>
+<img heigth="50% auto;"  src="https://user-images.githubusercontent.com/47395305/107866757-b4863500-6e52-11eb-9023-7016eb9ed02c.jpg"/>
 
 <br/>
 </div>
@@ -71,11 +70,15 @@ yarn android
 
 **Obs: O projeto foi apenas configurado para android.
 
-<!-- ## :iphone: Donwload no Celular
+ ## :iphone: Donwload no Celular
+ 
+ 
+ 
+<img heigth="100% auto;" align="center" src="https://user-images.githubusercontent.com/47395305/107876741-8b8f8f80-6ea6-11eb-9610-531f4957758f.png"/>
 
-QRCODE -->
+lembre-se apenas de dar permissão para seu celular baixar e instalar de fontes desconhecidas.
 
-<a href="https://youtu.be/v4T8k3D3vv0"> Vejo o funcionamento.</a>
+<a href="https://youtu.be/v4T8k3D3vv0"> Caso queira, veja o video do funcionamento.</a>
 
 ---
 Projeto criado por <a href="https://www.linkedin.com/in/adriel-borgesti" >Adriel Borges</a>.
