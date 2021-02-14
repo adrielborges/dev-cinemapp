@@ -12,6 +12,7 @@ export const NavigateOptionsContainer = styled.View`
   justify-content: center;
   border-radius: 32px;
   background: #da1a37;
+  padding: 12px;
 `;
 
 type NavigateTypeProp = {
@@ -19,10 +20,14 @@ type NavigateTypeProp = {
 };
 
 export const NavigateOption = styled.TouchableOpacity<NavigateTypeProp>`
-  background: #b1152d;
+  flex-direction: row;
+  background: ${({isFocused}) => (isFocused ? '#b1152d' : 'transparent')};
   padding: 10px;
+  margin: 0 8px;
   border-radius: 20px;
 `;
 export const OptionName = styled.Text`
+  font-family: 'Poppins-Medium';
+  font-size: 12px;
   color: #fafafa;
 `;

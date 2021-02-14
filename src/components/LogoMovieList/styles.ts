@@ -4,7 +4,7 @@ export const Container = styled.View`
   width: 100%;
   justify-content: flex-start;
   flex-direction: row;
-  margin-top: 10px;
+  margin-top: 40px;
   padding-left: 20px;
 `;
 export const Title = styled.Text`

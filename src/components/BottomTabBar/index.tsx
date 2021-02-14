@@ -3,6 +3,8 @@ import React from 'react';
 import {BottomTabBarProps} from '@react-navigation/bottom-tabs';
 
 import * as S from './styles';
+import Icon from 'react-native-vector-icons/Feather';
+import {Text} from 'react-native';
 
 export default function BottomTabBar({
   state,
@@ -57,6 +59,22 @@ export default function BottomTabBar({
               testID={options.tabBarTestID}
               onPress={onPress}
               onLongPress={onLongPress}>
+              {label === 'Procurar' && (
+                <Icon
+                  name="search"
+                  color="#fafafa"
+                  size={20}
+                  style={{marginRight: 8}}
+                />
+              )}
+              {label === 'Favoritos' && (
+                <Icon
+                  name="star"
+                  color="#fafafa"
+                  size={20}
+                  style={{marginRight: 8}}
+                />
+              )}
               <S.OptionName>{label}</S.OptionName>
             </S.NavigateOption>
           );
