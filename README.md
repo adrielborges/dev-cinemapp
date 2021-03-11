@@ -11,9 +11,9 @@
 </div>
 
 <p align="center">
-  <a href="#memo-donwload-do-projeto">Donwload do Projeto</a>
+  <a href="#memo-download-do-projeto">Download do Projeto</a>
   &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#iphone-donwload-no-celular">Download no Celular</a>
+  <a href="#iphone-download-no-celular">Download no Celular</a>
 </p>
 
 <div align="center" >
@@ -35,7 +35,7 @@
 
 <div align="center">
 
-## :memo: Donwload do Projeto
+## :memo: Download do Projeto
 
 </div>
 
