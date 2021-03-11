@@ -77,7 +77,7 @@ yarn android
 
 <div align="center">
 
- ## :iphone: Donwload no Celular
+ ## :iphone: Download no Celular
 
 
 
